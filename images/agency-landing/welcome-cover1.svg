@@ -1,0 +1,188 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+   viewBox="0 0 300 300" style="enable-background:new 0 0 300 300;" xml:space="preserve">
+  <style type="text/css">
+    .st0{fill:#494948;}
+    .st1{fill:#666665;}
+    .st2{fill:#1DCA7F;}
+    .st3{fill:#FBFAF9;}
+    .st4{fill:#323231;}
+    .st5{fill:#047870;}
+    .st6{fill:#6898AE;}
+
+    @keyframes box {
+      from {
+        transform: translateY(-7px);
+      }
+    }
+    .box {
+      animation: box 5000ms ease-in-out -3000ms alternate infinite;
+    }
+    @keyframes box-item {
+      0%, 50% {
+        transform: none;
+      }
+      25% {
+        transform: scale(0.2, 1);
+      }
+    }
+    .box-item1 {
+      animation: box-item 4000ms ease-in-out infinite;
+      transform-origin: 53.1px 0;
+    }
+    .box-item2 {
+      animation: box-item 7000ms ease-in-out -1000ms infinite;
+      transform-origin: 53.1px 0;
+    }
+    .box-item3 {
+      animation: box-item 6000ms ease-in-out -3500ms infinite;
+      transform-origin: 53.1px 0;
+    }
+    .box-item4 {
+      animation: box-item 5100ms ease-in-out -2400ms infinite;
+      transform-origin: 77.3px 0;
+    }
+    .box-item5 {
+      animation: box-item 7600ms ease-in-out -600ms infinite;
+      transform-origin: 53.1px 0;
+    }
+
+    @keyframes cursor {
+      25%, 30% {
+        transform: translate(-80px, -10px) rotate(60deg);
+      }
+      70% {
+        transform: none;
+      }
+    }
+    .cursor {
+      animation: cursor 7000ms ease-in-out -4000ms infinite;
+      transform-origin: 241px 200px;
+    }
+
+    @keyframes dots {
+      from {
+        transform: translateX(10px);
+      }
+    }
+    .dots {
+      animation: dots 5000ms ease-in-out alternate infinite;
+    }
+
+    @keyframes square1 {
+      0%, 50% {
+        transform: none;
+      }
+      25% {
+        transform: scale(0.3, 1);
+      }
+    }
+    .square1 {
+      animation: square1 7000ms ease-in-out -3000ms infinite;
+      transform-origin: 140.7px 0;
+    }
+
+    @keyframes square2 {
+      0%, 50% {
+        transform: none;
+      }
+      25% {
+        transform: scale(0.5);
+      }
+    }
+    .square2 {
+      animation: square2 4000ms ease-in-out -1000ms infinite;
+      transform-origin: 193.3px 133px;
+    }
+  </style>
+  
+  <path class="st0" d="M225.8,198.8H95.6v-81.3c0-4.5,3.6-8.1,8.1-8.1h114c4.5,0,8.1,3.6,8.1,8.1V198.8z"/>
+  <rect x="103.7" y="117.4" class="st1" width="114" height="92.4"/>
+
+  <rect x="140.7" y="143.5" class="st2 square1" width="56.6" height="35"/>
+  <rect x="189.3" y="129" class="st3 square2" width="8.1" height="8.1"/>
+  
+  <path class="st0" d="M172.6,198.8c0,2-1.6,3.5-3.5,3.5h-16.7c-2,0-3.5-1.6-3.5-3.5H79.3v3c0,4.5,3.6,8.1,8.1,8.1h146.8c4.5,0,8.1-3.6,8.1-8.1v-3H172.6z"/>
+  <circle class="st4" cx="160.7" cy="113.6" r="1.5"/>
+
+  <g class="cursor">
+    <path class="st5" d="M241.1,231.3c-11.8,0-21.5-9.6-21.5-21.5s9.6-21.5,21.5-21.5s21.4,9.6,21.4,21.5S252.9,231.3,241.1,231.3zM241.1,190.5c-10.7,0-19.4,8.7-19.4,19.4s8.7,19.4,19.4,19.4c10.7,0,19.4-8.7,19.4-19.4S251.8,190.5,241.1,190.5z"/>
+    <polygon class="st3" points="250.9,206 231.2,200 237.1,219.8 240.5,213 247,219.5 250.6,215.8 244.2,209.3"/>
+  </g>
+
+  <g class="box">
+    <path class="st3" d="M127.5,156h-90V84.7h90V156z M38.5,155h88V85.7h-88V155z"/>
+    <rect x="53.1" y="98.9" class="st2 box-item1" width="66.5" height="3.9"/>
+    <rect x="53.1" y="107.1" class="st5" width="39.3" height="3.9"/>
+    <rect x="53.1" y="129.6" class="st6 box-item3" width="22" height="3.9"/>
+    <rect x="80.6" y="129.6" class="st3" width="3.9" height="3.9"/>
+    <rect x="105.5" y="137.9" class="st3" width="3.9" height="3.9"/>
+    <rect x="53.1" y="115.4" class="st2 box-item5" width="20.3" height="3.9"/>
+    <rect x="53.1" y="137.9" class="st2 box-item2" width="20.3" height="3.9"/>
+    <rect x="45.3" y="115.4" class="st3" width="3.9" height="3.9"/>
+    <rect x="77.3" y="115.4" class="st6 box-item4" width="30.2" height="3.9"/>
+  </g>
+        
+  <polygon class="st3" points="172.3,161.6 126.6,120.7 127.3,119.9 173,160.9"/>
+  
+  <circle class="st3" cx="172.6" cy="161.2" r="2.5"/>
+
+  <g class="dots">
+    <ellipse class="st3" cx="42.5" cy="164.4" rx="0.7" ry="0.7"/>
+    <ellipse class="st3" cx="42.5" cy="168.7" rx="0.7" ry="0.7"/>
+    <ellipse class="st3" cx="42.5" cy="173" rx="0.7" ry="0.7"/>
+    <ellipse class="st3" cx="51.4" cy="164.4" rx="0.7" ry="0.7"/>
+    <ellipse class="st3" cx="51.4" cy="168.7" rx="0.7" ry="0.7"/>
+    <ellipse class="st3" cx="51.4" cy="173" rx="0.7" ry="0.7"/>
+    <ellipse class="st3" cx="46.9" cy="164.4" rx="0.7" ry="0.7"/>
+    <ellipse class="st3" cx="46.9" cy="168.7" rx="0.7" ry="0.7"/>
+    <ellipse class="st3" cx="46.9" cy="173" rx="0.7" ry="0.7"/>
+    <ellipse class="st3" cx="60.2" cy="164.4" rx="0.7" ry="0.7"/>
+    <ellipse class="st3" cx="60.2" cy="168.7" rx="0.7" ry="0.7"/>
+    <ellipse class="st3" cx="60.2" cy="173" rx="0.7" ry="0.7"/>
+    <ellipse class="st3" cx="55.8" cy="164.4" rx="0.7" ry="0.7"/>
+    <ellipse class="st3" cx="55.8" cy="168.7" rx="0.7" ry="0.7"/>
+    <ellipse class="st3" cx="55.8" cy="173" rx="0.7" ry="0.7"/>
+    <ellipse class="st3" cx="69.1" cy="164.4" rx="0.7" ry="0.7"/>
+    <ellipse class="st3" cx="69.1" cy="168.7" rx="0.7" ry="0.7"/>
+    <ellipse class="st3" cx="69.1" cy="173" rx="0.7" ry="0.7"/>
+    <ellipse class="st3" cx="64.7" cy="164.4" rx="0.7" ry="0.7"/>
+    <ellipse class="st3" cx="64.7" cy="168.7" rx="0.7" ry="0.7"/>
+    <ellipse class="st3" cx="64.7" cy="173" rx="0.7" ry="0.7"/>
+    <ellipse class="st3" cx="78" cy="164.4" rx="0.7" ry="0.7"/>
+    <ellipse class="st3" cx="78" cy="168.7" rx="0.7" ry="0.7"/>
+    <ellipse class="st3" cx="78" cy="173" rx="0.7" ry="0.7"/>
+    <ellipse class="st3" cx="73.6" cy="164.4" rx="0.7" ry="0.7"/>
+    <ellipse class="st3" cx="73.6" cy="168.7" rx="0.7" ry="0.7"/>
+    <ellipse class="st3" cx="73.6" cy="173" rx="0.7" ry="0.7"/>
+    <ellipse class="st3" cx="86.9" cy="164.4" rx="0.7" ry="0.7"/>
+    <ellipse class="st3" cx="86.9" cy="168.7" rx="0.7" ry="0.7"/>
+    <ellipse class="st3" cx="86.9" cy="173" rx="0.7" ry="0.7"/>
+    <ellipse class="st3" cx="82.5" cy="164.4" rx="0.7" ry="0.7"/>
+    <ellipse class="st3" cx="82.5" cy="168.7" rx="0.7" ry="0.7"/>
+    <ellipse class="st3" cx="82.5" cy="173" rx="0.7" ry="0.7"/>
+    <ellipse class="st3" cx="95.8" cy="164.4" rx="0.7" ry="0.7"/>
+    <ellipse class="st3" cx="95.8" cy="168.7" rx="0.7" ry="0.7"/>
+    <ellipse class="st3" cx="95.8" cy="173" rx="0.7" ry="0.7"/>
+    <ellipse class="st3" cx="91.4" cy="164.4" rx="0.7" ry="0.7"/>
+    <ellipse class="st3" cx="91.4" cy="168.7" rx="0.7" ry="0.7"/>
+    <ellipse class="st3" cx="91.4" cy="173" rx="0.7" ry="0.7"/>
+    <ellipse class="st3" cx="104.7" cy="164.4" rx="0.7" ry="0.7"/>
+    <ellipse class="st3" cx="104.7" cy="168.7" rx="0.7" ry="0.7"/>
+    <ellipse class="st3" cx="104.7" cy="173" rx="0.7" ry="0.7"/>
+    <ellipse class="st3" cx="100.3" cy="164.4" rx="0.7" ry="0.7"/>
+    <ellipse class="st3" cx="100.3" cy="168.7" rx="0.7" ry="0.7"/>
+    <ellipse class="st3" cx="100.3" cy="173" rx="0.7" ry="0.7"/>
+    <ellipse class="st3" cx="113.6" cy="164.4" rx="0.7" ry="0.7"/>
+    <ellipse class="st3" cx="113.6" cy="168.7" rx="0.7" ry="0.7"/>
+    <ellipse class="st3" cx="113.6" cy="173" rx="0.7" ry="0.7"/>
+    <ellipse class="st3" cx="109.2" cy="164.4" rx="0.7" ry="0.7"/>
+    <ellipse class="st3" cx="109.2" cy="168.7" rx="0.7" ry="0.7"/>
+    <ellipse class="st3" cx="109.2" cy="173" rx="0.7" ry="0.7"/>
+    <ellipse class="st3" cx="122.5" cy="164.4" rx="0.7" ry="0.7"/>
+    <ellipse class="st3" cx="122.5" cy="168.7" rx="0.7" ry="0.7"/>
+    <ellipse class="st3" cx="122.5" cy="173" rx="0.7" ry="0.7"/>
+    <ellipse class="st3" cx="118.1" cy="164.4" rx="0.7" ry="0.7"/>
+    <ellipse class="st3" cx="118.1" cy="168.7" rx="0.7" ry="0.7"/>
+    <ellipse class="st3" cx="118.1" cy="173" rx="0.7" ry="0.7"/>
+  </g>
+</svg>
